@@ -4,10 +4,10 @@
 
 Currently, it gathers following metrics under the monitoring interval given in the configuration file.
 
-System Info
-CPU Info
-Memory/SWAP info
-CPU/Memory usage graphs for past hour (default) or custom time range
+- System Info
+- CPU Info
+- Memory/SWAP info
+- CPU/Memory usage graphs for past hour (default) or custom time range
 
 
 

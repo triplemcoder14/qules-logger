@@ -1,0 +1,11 @@
+version: 2
+updates:
+  # For Go modules
+  - package-ecosystem: "gomod"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    ignore:
+      # Optionally, add dependencies to ignore if needed
+      - dependency-name: ""

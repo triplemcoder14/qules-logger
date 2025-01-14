@@ -16,20 +16,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dhamith93/SyMon/internal/alertapi"
-	"github.com/dhamith93/SyMon/internal/alerts"
-	"github.com/dhamith93/SyMon/internal/alertstatus"
-	"github.com/dhamith93/SyMon/internal/auth"
-	"github.com/dhamith93/SyMon/internal/config"
-	"github.com/dhamith93/SyMon/internal/database"
-	"github.com/dhamith93/SyMon/internal/logger"
-	"github.com/dhamith93/SyMon/internal/monitor"
-	"github.com/dhamith93/SyMon/pkg/memdb"
-	"github.com/dhamith93/systats"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/credentials/insecure"
-	"google.golang.org/grpc/metadata"
+
 )
 
 func handleAlerts(alertConfigs []alerts.AlertConfig, config *config.Collector, mysql *database.MySql) {
